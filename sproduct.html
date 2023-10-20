@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aria</title>
+    <!-- <link rel="icon" href="./logo.png"> -->
+    <link rel="icon" href="./aria.webp">
+    <link rel="stylesheet" href="./style.css">
+    <!-- link stackpath bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!--    link icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<style>
+    .small-img-group{
+        display: flex;
+        justify-content:space-between;
+    }
+    .small-img-col{
+        flex-basis: 24%;
+    }
+.sprodcuct button{
+    font-size: 15px;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #fb774b;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.sprodcuct select{
+    display: block;
+    padding: 5px 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.sprodcuct input{
+    width: 50px;
+    height: 40px;
+    padding-left: 20px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.sprodcuct input:focus{
+    outline: none;
+}
+</style>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-2 fixed-top">
+        <div class="container-fluid">
+        <img width="100px" height="80px" src="./Aira_logo.webp" alt="">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto ">
+        <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" href="shop.html">Shop</a>    
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Blog</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item ">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-bag-shopping"></i>
+        </li>
+    </div>
+</div>  
+    </nav>
+    <section class="container sprodcuct  my-5 pt-5">
+    <div class="row mt-5">
+        <div class="col-lg-5 col-md-12 col-12">
+            <img id="MainImg" class="img-fluid w-100 p-1" width="300px" height="300px" src="./brand/shirt_ali.webp" alt="">
+            <div class="small-img-group">
+                <div class="small-img-col">
+                    <img class="small-img" width="100%" src="./brand/shirt_ali.webp" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img class="small-img" width="100%" src="./brand/shirt_ali_blue.webp" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img class="small-img" width="100%" src="./brand/shirt_ali_white.webp" alt="">
+                </div>
+                <div class="small-img-col">
+                    <img class="small-img" width="100%" src="./brand/shirt_ali_arm.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="  col-lg-6 col-md-12 col-12">
+            <h6>Home / Jacket</h6>
+            <h3 class="py-4">Jacket Men's</h3>
+            <h2>$192.00</h2>
+            <select class="my-3">
+                <option>Select Size</option>
+                <option>XL</option>
+                <option>XXL</option>
+                <option>L</option>
+                <option>M</option>
+            </select>
+            <input type="number" value="1">
+            <button class="buy-btn">Add to Cart</button>
+            <h4 class="mt-5 mb-5">Product Details</h4>
+            <span> New men spring with autumnunisex button down college letterman bomber jackets custom baseball jacket.We are based in Fujian, China, start from 2017,sell to North America(35.00%),Western Europe(15.00%),South America(10.00%),Africa(10.00%),Northern Europe(10.00%),Eastern Europe(7.00%),Southeast Asia(5.00%),Mid East(5.00%),South Asia(3.00%). There are total about 11-50 people in our office.</span>
+        </div>
+    </div>
+    </section>
+    <section id="feature" class="my-5 pb-5">
+        <div class="container text-center mt-5 py-5">
+            <h3>Related Products</h3>
+            <hr class="mx-auto">
+        </div>
+        <div class="row mx-auto container-fluid">
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" width="500px" height="500px"  src="./news/denim_skirt_dress.webp" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Denim Mini Skirt Dress</h5>
+                <h4 class="p-price">$492.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" width="420px" height="500px"  src="./news/louis-vuitton-twist.webp" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">classic LOUIS VUITTON bag</h5>
+                <h4 class="p-price">$159.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" width="310px" height="500px"  src="./news/cap.avif" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Cap Supplier Caps High Quality</h5>
+                <h4 class="p-price">$42.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid mb-3" width="330px" height="500px"  src="./news/convers_shoes.jpg" alt="">
+                <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Run Star Hike Platform Utility Twist</h5>
+                <h4 class="p-price">$129.00</h4>
+                <button class="buy-btn">Buy Now</button>
+            </div>
+        </div>
+    </section>
+    <footer class="mt-5 py-5">
+        <div class="row container mx-auto pt-5">
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <img width="70px" height="70px" src="./Aira_logo.webp" alt="">
+                <p>If you are a logo designer, your priority should be to make the logo memorable and meaningful.</p>
+            </div>
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Featured</h5>
+                <ul class="list-unstyled">
+                    <li><a href="">MEN</a></li>
+                    <li><a href="">WOMEN</a></li>
+                    <li><a href="">BOYS</a></li>
+                    <li><a href="">GIRLS</a></li>
+                    <li><a href="">NEW ARRIVALS</a></li>
+                    <li><a href="">SHOES</a></li>
+                    <li><a href="">CLOTHES</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-one col-lg-3 col-md-6 col-12">
+                <h5 class="pb-2">Contact Us</h5>
+                <div>
+                    <h6>ADDRESS</h6>
+                    <p>7B STREET, PP, CAMBODIA</p>
+                </div>
+                <div>
+                    <h6>PHONE</h6>
+                    <p>(+855) 938 372 20</p>
+                </div>
+                <div>
+                    <h6>EMAIL</h6>
+                    <p>bsivhuor@gmail.com</p>
+                </div>
+            </div>
+
+        </div> -->
+    </div>
+    <div class="copyright mt-5">
+        <div class="row container mx-auto">
+            <div class="col-lg-3 col-md-6 col-12 mb-4">
+                <img class="img-fluid w-75 h-100 m-2" src="./visa.png" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-12 text-nowrap mb-2">
+                <p>aria eCommerce © 2023 .All Rights Reserved</p>
+            </div>
+            <div class="col-lg-4 col-md-6 col-12">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+    var MainImg = document.getElementById('MainImg');
+    var smallimg = document.getElementsByClassName('small-img');
+
+    smallimg[0].onclick = function(){
+        MainImg.src = smallimg[0].src;
+    }
+    smallimg[1].onclick = function(){
+        MainImg.src = smallimg[1].src;
+    }
+    smallimg[2].onclick = function(){
+        MainImg.src = smallimg[2].src;
+    }
+    smallimg[3].onclick = function(){
+        MainImg.src = smallimg[3].src;
+    }
+</script>
